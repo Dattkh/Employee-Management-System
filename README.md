@@ -32,6 +32,7 @@ A full-featured **Java Swing + MySQL** desktop-based HR management system that a
 
 ## 📂 Project Structure
 
+```plaintext
 Employee_Management_System/
 ├── src/
 │   └── Employee_Management/
@@ -49,7 +50,7 @@ Employee_Management_System/
 │       ├── DeleteEmployeePage.java
 │       └── ConnectionClass.java
 └── Database/
-    └── employee_management.sql  '''
+    └── employee_management.sql
 
 
 
@@ -62,7 +63,7 @@ Open as a Java project.
 Ensure JDK 8+ is installed.
 Database Setup
 Create a MySQL database named employee_management.
-Import the provided SQL script in the Database folder.
+Import the provided SQL script in the Database folder
 Run Application
 Run LoginPage.java to start the GUI.
 Use admin credentials to access full features.
@@ -77,8 +78,8 @@ Employee	View profile, attendance, apply leave
 🔒 Role-Based Access Control
 🛡️ PreparedStatements used to prevent SQL injection
 🧑‍💻 Passwords stored securely (can be hashed with MD5/SHA)
-🧪 Testing Overview
 
+🧪 Testing Overview
 The system was tested using:
 Unit Testing (module-wise)
 Integration Testing (e.g., attendance linked to salary)
@@ -97,7 +98,7 @@ For a full system analysis, UML diagrams, flowcharts, design decisions, and scre
 📄 [project report AOOP.pdf](./docs/project_report_AOOP.pdf)
 
 🙌 Author
-Made by Datt Kharel
+Made with ❤️ by Datt Kharel
 📍 GitHub Profile : Dattkh
 🎓 Final Year Diploma in Computer Eng.
 
